@@ -25,13 +25,18 @@ export const PriceSection = () => {
               </p>
               <ul>
                 {option.features.map((feature, index) => (
-                    <li key={index} className="mt-8 flex items-center">
-                        <CheckCircle2 />
-                        <span className="ml-2">{feature}</span>
-                    </li>
+                  <li key={index} className="mt-8 flex items-center">
+                    <CheckCircle2 />
+                    <span className="ml-2">{feature}</span>
+                  </li>
                 ))}
               </ul>
-              <a href="#" className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-[#FAD36F] hover:text-black border border-[#FAD36F] rounded-lg transition duration-200">Subscribe</a>
+              <a
+                href="#"
+                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-[#FAD36F] hover:text-black border border-[#FAD36F] rounded-lg transition duration-200"
+              >
+                Subscribe
+              </a>
             </div>
           </li>
         ))}
